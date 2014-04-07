@@ -1,0 +1,64 @@
+package tbx_Themes;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Toolbar2000 -- TBX Themes'}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl,
+  tbx_d7,
+  PngComponentsD7;
+
+contains
+  rmkThemes in '..\source\Themes\rmkThemes.pas',
+  TBXAthenTheme in '..\source\Themes\TBXAthenTheme.pas',
+  TBXDreamTheme in '..\source\Themes\TBXDreamTheme.pas',
+  TBXEosTheme in '..\source\Themes\TBXEosTheme.pas',
+  TBXMirandaTheme in '..\source\Themes\TBXMirandaTheme.pas',
+  TBXMonaiTheme in '..\source\Themes\TBXMonaiTheme.pas',
+  TBXMonaiXPTheme in '..\source\Themes\TBXMonaiXPTheme.pas',
+  TBXNexos2Theme in '..\source\Themes\TBXNexos2Theme.pas',
+  TBXNexos3Theme in '..\source\Themes\TBXNexos3Theme.pas',
+  TBXNexos4Theme in '..\source\Themes\TBXNexos4Theme.pas',
+  TBXNexos5Theme in '..\source\Themes\TBXNexos5Theme.pas',
+  TBXNexosXTheme in '..\source\Themes\TBXNexosXTheme.pas',
+  TBXOffice11AdaptiveTheme in '..\source\Themes\TBXOffice11AdaptiveTheme.pas',
+  TBXOfficeCTheme in '..\source\Themes\TBXOfficeCTheme.pas',
+  TBXOfficeKTheme in '..\source\Themes\TBXOfficeKTheme.pas',
+  TBXReliferTheme in '..\source\Themes\TBXReliferTheme.pas',
+  TBXRomaTheme in '..\source\Themes\TBXRomaTheme.pas',
+  TBXSentimoXTheme in '..\source\Themes\TBXSentimoXTheme.pas',
+  TBXTristan2Theme in '..\source\Themes\TBXTristan2Theme.pas',
+  TBXTristanTheme in '..\source\Themes\TBXTristanTheme.pas',
+  TBXWhidbeyTheme in '..\source\Themes\TBXWhidbeyTheme.pas',
+  TBXXitoTheme in '..\source\Themes\TBXXitoTheme.pas',
+  TBXZezioTheme in '..\source\Themes\TBXZezioTheme.pas',
+  TBXStripesTheme in '..\source\Themes\TBXStripesTheme.pas',
+  TBXAluminumTheme in '..\source\Themes\TBXAluminumTheme.pas',
+  TBXOfficeXPTheme in '..\source\Themes\TBXOfficeXPTheme.pas',
+  TBXOffice2003Theme in '..\source\Themes\TBXOffice2003Theme.pas',
+  PngTBXOfficeXPTheme in '..\source\Themes\PngTBXOfficeXPTheme.pas';
+
+end.

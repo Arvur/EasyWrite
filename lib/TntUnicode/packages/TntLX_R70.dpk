@@ -1,0 +1,70 @@
+package TntLX_R70;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS ON}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Tnt LX Controls - Runtime'}
+{$RUNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  TntUnicodeVcl_R70,
+  adortl,
+  VclSmp;
+
+contains
+  TntLXUtils in '..\source\LX\TntLXUtils.pas',
+  TntLXVclUtils in '..\source\LX\TntLXVclUtils.pas',
+  TntLXCombos in '..\source\LX\TntLXCombos.pas',
+  TntLXComCtrls in '..\source\LX\TntLXComCtrls.pas',
+  TntLXDBGrids in '..\source\LX\TntLXDBGrids.pas',
+  TntLXForms in '..\source\LX\TntLXForms.pas',
+  TntLXLookupCtrls in '..\source\LX\TntLXLookupCtrls.pas',
+  TntLXStringGrids in '..\source\LX\TntLXStringGrids.pas',
+  TntLXClasses in '..\source\LX\TntLXClasses.pas',
+  TntLXDialogs in '..\source\LX\TntLXDialogs.pas',
+  TntLXVerUtils in '..\source\LX\TntLXVerUtils.pas',
+  TntLXRichEdits in '..\source\LX\TntLXRichEdits.pas',
+  TntLXDataSet in '..\source\LX\TntLXDataSet.pas',
+  TntLXVarArrayDataSet in '..\source\LX\TntLXVarArrayDataSet.pas',
+  TntLXRegistry in '..\source\LX\TntLXRegistry.pas',
+  TntLXFlashMsg in '..\source\LX\TntLXFlashMsg.pas' {TntFlashForm: TTntTrxForm},
+  TntLXCancelableFrm in '..\source\LX\TntLXCancelableFrm.pas' {TntCancelableForm},
+  TntLXDBUtils in '..\source\LX\TntLXDBUtils.pas',
+  TntLXAdoDataSet in '..\source\LX\TntLXAdoDataSet.pas',
+  TntLXMapiUtils in '..\source\LX\TntLXMapiUtils.pas',
+  TntLXSetupUtils in '..\source\LX\TntLXSetupUtils.pas',
+  TntLXListView in '..\source\LX\TntLXListView.pas',
+  TntLXHotLabel in '..\source\LX\TntLXHotLabel.pas',
+  TntLXSafeWinInet in '..\source\LX\TntLXSafeWinInet.pas',
+  TntLXHttpRequestor in '..\source\LX\TntLXHttpRequestor.pas',
+  TntLXCsvUtils in '..\source\LX\TntLXCSVUtils.pas',
+  TntLXFetchUrl in '..\source\LX\TntLXFetchUrl.pas' {TntWebDownloadProgressForm: TTntFormLX},
+  TntLXMemoInputQueryFrm in '..\source\LX\TntLXMemoInputQueryFrm.pas',
+  TntLXPasswordEdit in '..\source\LX\TntLXPasswordEdit.pas',
+  TntLXCheckLst in '..\source\LX\TntLXCheckLst.pas',
+  TntLXCRC32 in '..\source\LX\TntLXCRC32.pas',
+  TntLXDBCtrls in '..\source\LX\TntLXDBCtrls.pas',
+  TntLXSafeWinInet_ConnectionDlg in '..\source\LX\TntLXSafeWinInet_ConnectionDlg.pas' {TntLXSafeWinInetConnectionForm},
+  TntLXSafeWinInet_AdvancedDlg in '..\source\LX\TntLXSafeWinInet_AdvancedDlg.pas' {TntLXSafeWinInetAdvancedForm};
+
+end.

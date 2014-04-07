@@ -1,0 +1,43 @@
+a.m, a.m:hover, a.m:visited, a.m:active, a.m:link {font-size: 8pt; color: #333333; text-decoration: none;   font-family: Verdana, Arial, Helvetica, sans-serif}
+a.tpc:hover, a.tpc:visited, a.tpc:active, a.tpc:link {color: #333333; text-decoration: none; font-family: Verdana, Arial, Helvetica, sans-serif}
+a.md2, a.md2:hover, a.md2:visited, a.md2:active, a.md2:link {font-size: 10pt; color: #000000; text-decoration: none;   font-family: Verdana, Arial, Helvetica, sans-serif}
+
+blockquote {font-size: 11px;   font-family: Verdana, Arial, Helvetica, sans-serif}
+.s {font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif}
+li { FONT-SIZE: 12px; font-family: Verdana, Arial, Helvetica, sans-serif}
+.big { FONT-SIZE: 13px; font-family: Verdana, Arial, Helvetica, sans-serif}
+.small { FONT-SIZE: 10px; font-family: Verdana, Arial, Helvetica, sans-serif}
+.dats { FONT-SIZE: 8pt; color:#333333; font-family: Verdana, Arial, Helvetica, sans-serif}
+.tit { FONT-SIZE: 10pt; color:#333333; font-family: Verdana, Arial, Helvetica, sans-serif}
+.onl { FONT-SIZE: 8pt; color:#333333; font-family: Verdana, Arial, Helvetica, sans-serif}
+.helm { FONT-SIZE: 10px; color:#333333; font-family: Verdana, Arial, Helvetica, sans-serif}
+.lgf { FONT-SIZE: 11px; color:#333333; font-family: Verdana, Arial, Helvetica, sans-serif}
+SELECT, option, textarea,input {color:#000000; font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif}
+a:link,a:visited,a:active {text-decoration:none; color:#0000C0; font-weight:plain;   font-family: Verdana, Arial, Helvetica, sans-serif}
+a:hover {text-decoration:none; color:#FF0000; font-weight: plain; font-family: Verdana, Arial, Helvetica, sans-serif}
+.bottom { vertical-align: bottom; font-family: Verdana, Arial, Helvetica, sans-serif}
+.top { vertical-align: top; font-family: Verdana, Arial, Helvetica, sans-serif}
+.poster {FONT-SIZE: 12px; font-family: Verdana, Arial, Helvetica, sans-serif}
+body {FONT-SIZE: 12px; font-family: Verdana, Arial, Helvetica, sans-serif}
+.md2 {font-size: 12pt; color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif}
+.post {overflow:auto; FONT-SIZE: 13px;color:#333333; font-family: Verdana, Arial, Helvetica, sans-serif}
+.tpc {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #333333}
+.post a:link,.post a:visited,.post a:hover,.post a:active { FONT-SIZE: 12px}
+.sing { text-decoration: none; text-align: left; FONT-SIZE: 11px; color:#333399; font-family: Verdana, Arial, Helvetica, sans-serif}
+.sing a:link,.sing a:visited,.sing a:active {TEXT-DECORATION: underline; FONT-SIZE: 11px; color:#333399}
+.sing a:hover {TEXT-DECORATION: underline; FONT-SIZE: 11px; color:#ff0000}
+.mtext {FONT-SIZE: 12px; color: red; font-family: Verdana, Arial, Helvetica, sans-serif}
+.button {background-color:#FFFFFF; BORDER: #000000 1px outset;}
+.sh1 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #333333; background-color: #FFFFFF; padding-top: 10px; padding-bottom: 10px}
+
+.u1 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; padding-left: 3px; background-color: #FFFFFF }
+.u2 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #FFFFFF; background-color: #6699CC; text-align: left; text-decoration: none; font-weight: bold}
+.u2:link {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #FFFFFF; background-color: #6699CC; text-align: left; text-decoration: none; font-weight: bold}
+.u2:hover {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #FFFFFF; background-color: #6699CC; text-align: left; text-decoration: none; font-weight: bold}
+.u2:visited {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #FFFFFF; background-color: #6699CC; text-align: left; text-decoration: none; font-weight: bold}
+.u2:active {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #FFFFFF; background-color: #6699CC; text-align: left; text-decoration: none; font-weight: bold}
+.tb {border-color: #999999 #999999 black; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 1px}
+
+.mini { FONT-SIZE: 7pt; FONT-FAMILY: Small Fonts, Verdana, Arial}
+.f1 {padding-left: 30px;}
+.pusto {}

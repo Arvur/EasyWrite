@@ -1,0 +1,71 @@
+object FmBase_Modal: TFmBase_Modal
+  Left = 576
+  Top = 87
+  AlphaBlend = True
+  AlphaBlendValue = 230
+  BorderStyle = bsToolWindow
+  ClientHeight = 152
+  ClientWidth = 302
+  Color = clBtnFace
+  Font.Charset = RUSSIAN_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  KeyPreview = True
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnl_Background: TTBXToolWindow
+    Left = 0
+    Top = 0
+    Width = 302
+    Height = 152
+    Align = alClient
+    Caption = 'pnl_Background'
+    ClientAreaHeight = 152
+    ClientAreaWidth = 302
+    TabOrder = 0
+    object pnl_Logo: TTBXAlignmentPanel
+      Left = 0
+      Top = 0
+      Width = 302
+      Height = 60
+      Align = alTop
+      Color = clWindow
+      TabOrder = 0
+      object img_Logo: TImage
+        Left = 0
+        Top = 0
+        Width = 60
+        Height = 60
+        Align = alLeft
+        Center = True
+        Transparent = True
+      end
+      object lbl_Logo: TSpTBXLabel
+        Left = 60
+        Top = 0
+        Width = 242
+        Height = 60
+        Align = alClient
+        Font.Charset = RUSSIAN_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -21
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        Margins.Left = 50
+        ParentFont = False
+        LinkFont.Charset = DEFAULT_CHARSET
+        LinkFont.Color = clBlue
+        LinkFont.Height = -11
+        LinkFont.Name = 'MS Sans Serif'
+        LinkFont.Style = [fsUnderline]
+      end
+    end
+  end
+end

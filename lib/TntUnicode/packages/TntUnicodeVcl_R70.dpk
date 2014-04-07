@@ -1,0 +1,72 @@
+package TntUnicodeVcl_R70;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS ON}
+{$RANGECHECKS ON}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS ON}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Tnt Unicode Controls - Runtime'}
+{$RUNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  vcl,
+  vclx,
+  vcldb,
+  dsnap,
+  vclactnband;
+
+contains
+  ActiveIMM_TLB in '..\source\ActiveIMM_TLB.pas',
+  TntSystem in '..\source\TntSystem.pas',
+  TntAxCtrls in '..\source\TntAxCtrls.pas',
+  TntClipbrd in '..\source\TntClipbrd.pas',
+  TntWindows in '..\source\TntWindows.pas',
+  TntSysUtils in '..\source\TntSysUtils.pas',
+  TntClasses in '..\source\TntClasses.pas',
+  TntDialogs in '..\source\TntDialogs.pas',
+  TntFileCtrl in '..\source\TntFileCtrl.pas',
+  TntExtDlgs in '..\source\TntExtDlgs.pas',
+  TntRegistry in '..\source\TntRegistry.pas',
+  TntGraphics in '..\source\TntGraphics.pas',
+  TntControls in '..\source\TntControls.pas',
+  TntActnList in '..\source\TntActnList.pas',
+  TntMenus in '..\source\TntMenus.pas',
+  TntForms in '..\source\TntForms.pas',
+  TntStdCtrls in '..\source\TntStdCtrls.pas',
+  TntExtCtrls in '..\source\TntExtCtrls.pas',
+  TntButtons in '..\source\TntButtons.pas',
+  TntCheckLst in '..\source\TntCheckLst.pas',
+  TntGrids in '..\source\TntGrids.pas',
+  TntComCtrls in '..\source\TntComCtrls.pas',
+  TntDB in '..\source\TntDB.pas',
+  TntDBCtrls in '..\source\TntDBCtrls.pas',
+  TntDBGrids in '..\source\TntDBGrids.pas',
+  TntStdActns in '..\source\TntStdActns.pas',
+  TntExtActns in '..\source\TntExtActns.pas',
+  TntListActns in '..\source\TntListActns.pas',
+  TntDBActns in '..\source\TntDBActns.pas',
+  TntBandActn in '..\source\TntBandActn.pas',
+  TntDBLogDlg in '..\source\TntDBLogDlg.pas',
+  TntFormatStrUtils in '..\source\TntFormatStrUtils.pas',
+  TntWideStrUtils in '..\source\TntWideStrUtils.pas',
+  TntWideStrings in '..\source\TntWideStrings.pas';
+
+end.

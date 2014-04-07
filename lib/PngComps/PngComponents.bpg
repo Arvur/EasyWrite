@@ -1,0 +1,26 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = PNG_D7.bpl PngComponentsD7.bpl PngComponentsD7D.bpl
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+PNG_D7.bpl: packages\PNG_D7.dpk
+  $(DCC)
+
+PngComponentsD7.bpl: packages\PngComponentsD7.dpk
+  $(DCC)
+
+PngComponentsD7D.bpl: packages\PngComponentsD7D.dpk
+  $(DCC)
+
+

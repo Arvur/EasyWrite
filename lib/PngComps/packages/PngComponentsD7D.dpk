@@ -1,0 +1,40 @@
+package PngComponentsD7D;
+
+{$R *.res}
+{$R '..\source\Design\PngComponents.dcr'}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'PNG Components Designtime'}
+{$DESIGNONLY}
+{$IMPLICITBUILD ON}
+{$DEFINE ThemeSupport}
+
+requires
+  designide,
+  PngComponentsD7;
+
+contains
+  PngComponentsRegister in '..\source\Design\PngComponentsRegister.pas',
+  PngComponentEditors in '..\source\Design\PngComponentEditors.pas',
+  PngImageListEditor in '..\source\Design\PngImageListEditor.pas' {PngImageListEditorDlg};
+
+end.

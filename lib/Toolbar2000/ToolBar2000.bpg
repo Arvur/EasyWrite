@@ -1,0 +1,64 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = tb2k_d7.bpl tbx_d7.bpl tbx_Themes.bpl SpTBXLib_d7.bpl rmTBXCtrls_d7.bpl TBXSwitcherItem_d7.bpl tbxdbn_d7.bpl \
+  TBXSizer_RT.bpl tb2kdsgn_d7.bpl tbxdsgn_d7.bpl SpTBXLibDsgn_d7.bpl rmTBXCtrlsDsgn_d7.bpl TBXSwitcherItemDsgn_d7.bpl \
+  tbxdbndsgn_d7.bpl TBXSizer_DT.bpl
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+tb2k_d7.bpl: packages\tb2k_d7.dpk
+  $(DCC)
+
+tb2kdsgn_d7.bpl: packages\tb2kdsgn_d7.dpk
+  $(DCC)
+
+tbx_d7.bpl: packages\tbx_d7.dpk
+  $(DCC)
+
+tbxdsgn_d7.bpl: packages\tbxdsgn_d7.dpk
+  $(DCC)
+
+SpTBXLib_d7.bpl: packages\SpTBXLib_d7.dpk
+  $(DCC)
+
+SpTBXLibDsgn_d7.bpl: packages\SpTBXLibDsgn_d7.dpk
+  $(DCC)
+
+rmTBXCtrls_d7.bpl: packages\rmTBXCtrls_d7.dpk
+  $(DCC)
+
+rmTBXCtrlsDsgn_d7.bpl: packages\rmTBXCtrlsDsgn_d7.dpk
+  $(DCC)
+
+TBXSwitcherItem_d7.bpl: packages\TBXSwitcherItem_d7.dpk
+  $(DCC)
+
+TBXSwitcherItemDsgn_d7.bpl: packages\TBXSwitcherItemDsgn_d7.dpk
+  $(DCC)
+
+tbx_Themes.bpl: packages\tbx_Themes.dpk
+  $(DCC)
+
+tbxdbn_d7.bpl: packages\tbxdbn_d7.dpk
+  $(DCC)
+
+tbxdbndsgn_d7.bpl: packages\tbxdbndsgn_d7.dpk
+  $(DCC)
+
+TBXSizer_RT.bpl: packages\TBXSizer_RT.dpk
+  $(DCC)
+
+TBXSizer_DT.bpl: packages\TBXSizer_DT.dpk
+  $(DCC)
+
+

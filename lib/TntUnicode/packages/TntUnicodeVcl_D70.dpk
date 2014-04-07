@@ -1,0 +1,56 @@
+package TntUnicodeVcl_D70;
+
+{$R *.res}
+{$R '..\source\Design\TntComCtrls.dcr'}
+{$R '..\source\Design\TntDBCtrls.dcr'}
+{$R '..\source\Design\TntStdCtrls.dcr'}
+{$R '..\source\Design\TntActnList.dcr'}
+{$R '..\source\Design\TntMenus.dcr'}
+{$R '..\source\Design\TntExtCtrls.dcr'}
+{$R '..\source\Design\TntForms.dcr'}
+{$R '..\source\Design\TntGrids.dcr'}
+{$R '..\source\Design\TntButtons.dcr'}
+{$R '..\source\Design\TntDialogs.dcr'}
+{$R '..\source\Design\TntExtDlgs.dcr'}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS ON}
+{$RANGECHECKS ON}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS ON}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Tnt Unicode Controls'}
+{$DESIGNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  dcldb,
+  designide,
+  TntUnicodeVcl_R70;
+
+contains
+  TntForms_Design in '..\source\Design\TntForms_Design.pas',
+  TntComCtrls_Design in '..\source\Design\TntComCtrls_Design.pas',
+  TntDBGrids_Design in '..\source\Design\TntDBGrids_Design.pas',
+  TntDesignEditors_Design in '..\source\Design\TntDesignEditors_Design.pas',
+  TntWideStringProperty_Design in '..\source\Design\TntWideStringProperty_Design.pas',
+  TntMenus_Design in '..\source\Design\TntMenus_Design.pas',
+  TntStrEdit_Design in '..\source\Design\TntStrEdit_Design.pas',
+  TntUnicodeVcl_Register in '..\source\Design\TntUnicodeVcl_Register.pas',
+  TntActions_Design in '..\source\Design\TntActions_Design.pas';
+
+end.

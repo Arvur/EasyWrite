@@ -1,0 +1,40 @@
+package tbxdsgn_d7;
+
+{$R *.res}
+{$R '..\source\tbx\TBXReg.dcr'}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $2F800000}
+{$DESCRIPTION 'Toolbar2000 -- TBX Extensions Design Package (Alex Denisov)'}
+{$DESIGNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  tb2k_d7,
+  tb2kdsgn_d7,
+  tbx_d7,
+  vcl;
+
+contains
+  TBXStrEdit in '..\source\tbx\TBXStrEdit.pas',
+  TBXReg in '..\source\tbx\TBXReg.pas';
+
+end.

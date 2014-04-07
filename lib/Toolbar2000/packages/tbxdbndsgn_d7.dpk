@@ -1,0 +1,46 @@
+package tbxdbndsgn_d7;
+
+{$R *.res}
+{$R '..\source\TBXDbNav\TBXDbNavReg.dcr'}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Toolbar2000 -- TBX DB Navigator Item (Designtime Package)'}
+{$DESIGNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  tb2kdsgn_d7,
+  tb2k_d7,
+  vcl,
+  dclstd,
+  designide,
+  vclactnband,
+  vclx,
+  dbrtl,
+  tbx_d7,
+  tbxdbn_d7;
+
+contains
+  TBXDbNavReg in '..\source\TBXDbNav\TBXDbNavReg.pas';
+
+end.

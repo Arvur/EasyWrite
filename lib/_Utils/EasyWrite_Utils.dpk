@@ -1,0 +1,50 @@
+package EasyWrite_Utils;
+
+{$R *.res}
+{$R 'ColorPB\ColorPickerButton.dcr'}
+{$R 'TellTail\TellTail.dcr'}
+{$R 'VerInfo\PJVersionInfo.dcr'}
+{$R 'PropStorage\PropStorageReg.dcr'}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION ' EasyWrite Utils'}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl,
+  designide,
+  vclactnband,
+  vclx,
+  dbrtl;
+
+contains
+  ColorPickerButton in 'ColorPB\ColorPickerButton.pas',
+  RegExpr in 'RegExpr\RegExpr.pas',
+  ExpMultiStringHolder in 'StringHolder\ExpMultiStringHolder.pas',
+  ExpStringHolder in 'StringHolder\ExpStringHolder.pas',
+  TellTail in 'TellTail\TellTail.pas',
+  PJVersionInfo in 'VerInfo\PJVersionInfo.pas',
+  PropStorageEh in 'PropStorage\PropStorageEh.pas',
+  PropStorageReg in 'PropStorage\PropStorageReg.pas';
+
+end.
